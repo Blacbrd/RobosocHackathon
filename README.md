@@ -1,2 +1,1 @@
-# RobosocHackathon
-Hackathon
+#Robosoc Hackabot
