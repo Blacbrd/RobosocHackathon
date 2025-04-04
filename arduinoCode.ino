@@ -42,7 +42,7 @@ void loop() {
 
         steeringServo.write(constrain(angle, 60, 110));
 
-        uint8_t motorState = (motorCommand == 1) ? FORWARD : RELEASE;
+        uint8_t motorState = (motorCommand == 1) ? BACKWARD : RELEASE;
         rightMotor.setSpeed(200);  // Refresh speed
         leftMotor.setSpeed(200);
         rightMotor.run(motorState);
